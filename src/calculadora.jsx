@@ -12,7 +12,8 @@ const index = () => {
 
     return(
         <div>
-            <h1>Calculadora de IMC</h1> <br />
+            <main>
+            <h1>Calculadora <br/> IMC</h1> <br />
             <input 
             type="number"
             placeholder="PESO (Kg)"
@@ -61,10 +62,17 @@ const index = () => {
                             <td>Maior ou igual a 40</td>
                             <td>Obesidade Classe 3</td>
                         </tr>
-
                     </tbody>
                 </table>
             </div>
+            <br/>
+            <h1>O que é IMC?</h1>
+            <p>Também conhecido como Índice de Massa Corporal, o IMC é uma fórmula utilizada por vários profissionais de saúde, incluindo médicos, enfermeiros e nutricionistas, para saber, de uma forma rápida, se a pessoa precisa ganhar ou perder peso.*</p>
+            </main>
+            <footer>
+                <p>Desenvolvido por <a href="https://github.com/MateusMCalderam">Mateus M Calderam</a></p> <br />
+                <p>*IMC: o que é, como calcular e tabela de resultados. Disponível em: <a href="https://www.tuasaude.com/imc/">https://www.tuasaude.com/imc/.</a></p>
+            </footer>
         </div>
     )
 
